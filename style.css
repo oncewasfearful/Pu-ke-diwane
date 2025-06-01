@@ -1,0 +1,195 @@
+h1{
+    display: inline-block;
+    background-color: rgb(24, 12, 12);
+    text-align: center;
+font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  color: rgb(247, 243, 11);
+}
+
+body{
+    text-align: center;
+    background-color: rgb(141, 107, 103);
+    background: url(https://i.pinimg.com/736x/eb/94/fd/eb94fdcc15dfc0b2d1da72f3a236faab.jpg);
+}
+nav {
+    display: flex;
+    position: sticky;
+    background-color: rgb(100, 74, 62);
+    background-blend-mode: luminosity;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    width: 100%;
+    gap: 30px;
+    z-index: 998;
+    justify-content: center;
+    
+    }
+nav button {
+    background-color: rgb(24, 12, 12);
+  color: rgb(255, 249, 249);
+  border: none;
+  padding: 20px 30px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 9px;
+  transition: background-color 0.5s
+}
+.navbar button:hover {
+  background-color: #07beec;
+}
+.squad {
+    margin-top: 20px;
+}
+h2 {
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    font-display: swap;
+    font-style: italic;
+    font-weight: 900; 
+    color: rgb(204, 247, 11);
+    background-color: #140f0f;
+}
+
+.bhai5{
+    text-align: left;
+    height: 300px;
+    width: auto;
+}
+
+.GODS {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 20px 0;
+}
+.GODS ol {
+    background-color: #ffdf00;
+  font-size: 25px;
+  color: rgb(8, 5, 5);
+  list-style-position: inside;
+  text-align: left;
+  padding-left: 0;
+}
+
+.p1 {
+    background-color: #5454ee;
+    color: #ffffff;
+    font-size: 22px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 90%;
+    text-align: left;
+}
+
+.p2 {
+    background-color: #032d41;
+    color: #f2f2f2;
+    font-size: 20px;
+    font-family: 'Georgia', serif;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 90%;
+    text-align: left;
+}
+
+.p3 {
+    background-color: #1da00c;
+    color: #ffe4b5;
+    font-size: 19px;
+    font-family: 'Courier New', monospace;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 90%;
+    text-align: left;
+}
+
+.p4 {
+    background-color: #000000;
+    color: #ffdf00;
+    font-size: 21px;
+    font-family: 'Verdana', sans-serif;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 90%;
+    text-align: left;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 30px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+.gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.4);
+  transition: transform 0.3s ease;
+}
+
+.clumzy  {
+    border-radius: 10px;
+    background-color: #879607;
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.pokemons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.pokemons img {
+  width: 100px;
+  height: auto;
+  border-radius: 10px;
+  border: 2px solid #444;
+}
+.tharki {
+    border-radius: 10px;
+    background-color: #e76ac8;
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.dev{
+ border-radius: 10px;
+    background-color: #0d8d28;
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.samar {
+ border-radius: 10px;
+    background-color: #0350a8;
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+.fear{
+ border-radius: 10px;
+    background-color: #d62222;
+    color: antiquewhite;
+    font-size: 25px;
+    font-family: sans-serif;
+}
