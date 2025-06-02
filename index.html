@@ -8,6 +8,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+ <link rel="icon" type="image/x-icon" href="https://i.pinimg.com/736x/ad/3c/14/ad3c14e13aa695365e670d959ea7fec4.jpg"/>
+
 </head>
 <body>
     <nav class="navbar">
@@ -22,7 +24,10 @@
      <h1> THE GOD SQUAD </h1>
   </header>
   <main>
-    <div class= "squad"> <img src="PUtreasure/TheGODs.jfif" alt="the GOD squad" class="godrangers"/>
+    <div class= "squad"> <img src="PUtreasure/TheGODs.jfif" alt="the GOD squad" class="godrangers" id="godImage" />
+        <br>
+<audio id="themeAudio" src="PUtreasure/poketheme.mp3" controls></audio>
+
         <br>
         <h2>PU ke Diwane</h2>
         <p class="p1"><strong>WHO ARE WE ?</strong> WE are the cosmic gods and our legend starts like this...</p>
@@ -46,5 +51,27 @@
         THus the Legend OF GOD SQUAD was Born, the guardians of the cosmos.</p>
     </div>
   </main>
+   <script>
+    const godImage = document.getElementById('godImage');
+    const themeAudio = document.getElementById('themeAudio');
+
+    godImage.addEventListener('click', () => {
+      themeAudio.currentTime = 0;
+      themeAudio.play();
+    });
+  </script>
 </body>
+ <footer>
+    <p>❤️❤️❤️ made with love by FEArLEss❤️❤️❤️</p>
+    <style>
+        p {
+            font-family: monospace;
+            font-size: 20px;
+            background-color: rgb(4, 134, 134);
+            padding: 10px;
+            border-radius: 9px;
+        }
+    </style>
+    
+  </footer>
 </html>
